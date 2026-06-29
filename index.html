@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a href="#" class="logo">ImageVerse</a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 style="color: rgb(194, 106, 24);">Explore Stunning Images</h1>
+      <p>Discover breathtaking visuals from nature, animals, cars, and technology.</p>
+      <a href="#gallery" class="btn primary-btn">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="section">
+    <div class="container">
+      <h2 class="section-title">Popular Categories</h2>
+      <div class="category-grid">
+        <article class="category-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgPfOhuFmKkWeLfQ7hbe1d8hzDD3F5PNVUIg&s" alt="Nature">
+          <h3 style="color:rgb(241, 240, 246);">Nature</h3>
+        </article>
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?w=800" alt="Cars">
+          <h3 style="color:rgb(241, 240, 246);">Cars</h3>
+        </article>
+        <article class="category-card">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/052/369/484/small/sloth-animal-on-tree-branch-and-looking-at-camera-photo.jpg">
+          <h3 style="color:rgb(241, 240, 246);">Animals</h3>
+        </article>
+        <article class="category-card">
+          <img src="https://plus.unsplash.com/premium_photo-1688645554172-d3aef5f837ce?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwbW91bnRhaW5zfGVufDB8fDB8fHww" alt="Mountain">
+          <h3 style="color:rgb(241, 240, 246);">Mountain</h3>
+        </article>
+          <article class="category-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBzxKznB5tvkpMaCfNnA3KC67V3-OEDymxCg&s" alt="Architecture">
+              <h3 style="color:rgb(241, 240, 246);">Architecture</h3>
+         </article>
+
+         <article class="category-card">
+            <img src="https://media.gettyimages.com/id/490594081/photo/baps-shri-swaminarayan-mandir-london.jpg?s=612x612&w=gi&k=20&c=7J4Ppt6zRgJZu7wt6KgluJucniCPivpJrZQ17kbj7Eo=" alt="Temple">
+            <h3 style="color:rgb(241, 240, 246);">Temple</h3>
+         </article>
+
+          <article class="category-card">
+            <img src="https://img.freepik.com/free-photo/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table_141793-3998.jpg?semt=ais_hybrid&w=740&q=80" alt="Food">
+            <h3 style="color:rgb(241, 240, 246);">Food</h3>
+         </article>
+         
+         <article class="category-card">
+            <img src="https://www.avikalp.com/cdn/shop/products/MWZ3561_wallpaper3.jpg?v=1746037675" alt="Fashion">
+            <h3 style="color:rgb(241, 240, 246);">Fashion</h3>
+         </article>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Images -->
+  <section class="section featured-section">
+    <div class="container">
+      <h2 class="section-title">Featured Images</h2>
+      <div class="featured-grid">
+        <figure class="featured-card"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900" alt="Featured Nature 1"></figure>
+        <figure class="featured-card"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=900" alt="Featured Car 1"></figure>
+        <figure class="featured-card"><img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?w=900" alt="Featured Animal 1"></figure>
+        <figure class="featured-card"><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=900" alt="Featured Tech 1"></figure>
+        <figure class="featured-card"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=900" alt="Featured Nature 2"></figure>
+        <figure class="featured-card"><img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=900" alt="Featured Car 2"></figure>
+        <figure class="featured-card"><img src="https://thumbs.dreamstime.com/b/baby-rabbit-eating-grass-outdoor-sunny-summer-day-easter-bunny-garden-home-pet-kid-cute-pets-animals-family-131767995.jpg" alt="Featured Animal 2"></figure>
+        <figure class="featured-card"><img src="https://images.jdmagicbox.com/quickquotes/listicle/listicle_1688016521402_cqu7t_847x400.jpg" alt="Featured Temple 2"></figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Search and Filter -->
+  <section class="section filter-section">
+    <div class="container">
+      <h2 class="section-title">Search & Filter</h2>
+      <div class="filter-controls glass">
+        <input type="text" style="color: aliceblue;" id="searchInput" placeholder="Search by title or category..." />
+        <div class="filter-buttons">
+          <b><button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="nature">Nature</button>
+          <button class="filter-btn" data-filter="cars">Cars</button>
+          <button class="filter-btn" data-filter="animals">Animals</button>
+          <button class="filter-btn" data-filter="mountain">Mountain</button>
+          <button class="filter-btn" data-filter="temple">Temple</button>
+          <button class="filter-btn" data-filter="food">Food</button>
+          <button class="filter-btn" data-filter="fashion">Fashion</button></b>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="section-title">Image Gallery</h2>
+      <div class="gallery-grid" id="galleryGrid">
+        <figure class="gallery-item" data-category="mountain" data-title="Mountain View">
+          <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=900" alt="Mountain View">
+          <figcaption>Mountain View</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="cars" data-title="Sports Car">
+          <img src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=900" alt="Sports Car">
+          <figcaption>Sports Car</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="animals" data-title="Majestic Tiger">
+          <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=900" alt="Majestic Tiger">
+          <figcaption>Majestic Tiger</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="nature" data-title="Forest Path">
+          <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900" alt="Forest Path">
+          <figcaption>Forest Path</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="cars" data-title="Classic Car">
+          <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=900" alt="Classic Car">
+          <figcaption>Classic Car</figcaption>
+        </figure>
+
+         <figure class="gallery-item" data-category="cars" data-title="Classic Car">
+          <img src="https://www.spinny.com/blog/wp-content/uploads/2025/07/Most-Expensive-Car-in-the-World-Rolls%E2%80%91Royce-La-Rose-Noire-Droptail-1160x653.webp" alt="Classic Car2">
+          <figcaption>Classic Car</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="animals" data-title="Curious Fox">
+          <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=900" alt="Curious Fox">
+          <figcaption>Curious Fox</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="nature" data-title="Ocean Waves">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900" alt="Ocean Waves">
+          <figcaption>Ocean Waves</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="animals" data-title="Peacock">
+          <img src="https://cdn.britannica.com/37/154237-050-A76A506D/blue-peafowl-tail-Indian-peacock-courtship-displays.jpg" alt="Peacock">
+          <figcaption>Peacock</figcaption>
+        </figure>
+        
+        <figure class="gallery-item" data-category="food" data-title="Delicious Food">
+          <img src="https://thumbs.dreamstime.com/b/delicious-south-indian-breakfast-dish-idli-sambar-chutney-served-traditionally-banana-leaf-wooden-plate-396610899.jpg" alt="Delicious Food">
+          <figcaption>Delicious Food</figcaption>
+        </figure>
+         <figure class="gallery-item" data-category="temple" data-title="Ancient Temple">
+          <img src="https://www.chardham-pilgrimage-tour.com/assets/images/shri-badrinath-dham-temple_01.webp" alt="Ancient Temple">
+          <figcaption>Ancient Temple</figcaption>
+          </figure> 
+
+         <figure class="gallery-item" data-category="temple" data-title=" Temple1">
+          <img src="https://akm-img-a-in.tosshub.com/lingo/uptak/images/story/202308/prem-mandir-1-768x432.png?size=768:432&format=webp&q=70" alt="Ancient Temple">
+          <figcaption> Temple1</figcaption>
+          </figure> 
+
+          <figure class="gallery-item" data-category="temple" data-title=" Temple2">
+          <img src="https://cdn.pixabay.com/photo/2020/01/21/08/11/indian-temple-4782312_1280.jpg" alt="Temple2">
+          <figcaption> Temple2</figcaption>
+          </figure> 
+          
+          <figure class="gallery-item" data-category="food" data-title="Junk Food">
+          <img src="https://thumbs.dreamstime.com/b/fast-food-junk-food-hamburger-burger-tasty-fat-not-good-beef-meat-french-fries-unhealthy-enjoy-relax-eat-speed-delicious-dinner-304474456.jpg" alt="Junk Food">
+          <figcaption> Junk Food</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="mountain" data-title="Mountain View2">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/da/21/b8/caption.jpg?w=700&h=400&s=1" alt="Mountain View2">
+          <figcaption>Mountain View</figcaption>
+        </figure>
+         
+        <figure class="gallery-item" data-category="food" data-title=" Indian Food">
+          <img src="https://eastindianrecipes.net/wp-content/uploads/2022/09/How-to-Make-North-Indian-Thali-Vegetarian-7-1024x1024.jpg" alt=" Food2">
+          <figcaption> Indian Food</figcaption>
+        </figure>
+          
+        <figure class="gallery-item" data-category="fashion" data-title=" Indian dress">
+          <img src="https://blog.kalkifashion.com/wp-content/uploads/2024/05/From_Childhood_Dreams_To_Reality_Finding_My_Dream_Wedding_Lehenga-scaled.jpg" alt=" Indian Dress">
+          <figcaption> Indian Dress</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="fashion" data-title="South Indian Dress">
+          <img src="https://images.openai.com/static-rsc-4/RqIO-8PJ62hoAZ77IrwZeKbuqRgTjPooiWs6mR9SL7bNFUhBV52MTXmV7brlu_hyTJNPUQ2XvEJcZWlOCmGzm8HeWoAfBuz-4J2yFye_Ak9VZZ6wmWjz0GDx5YpZWgpiax4mzQPQC_LjP1bG7abDfUpWM4kN4whW9nzjx-6BTS0?purpose=inline" alt="South Indian Dress" >
+          <figcaption> South Indian Dress</figcaption>
+        </figure>
+        
+        <figure class="gallery-item" data-category="fashion" data-title="Gujrati Dress">
+          <img src="https://5.imimg.com/data5/ECOM/Default/2023/9/343709642/JD/GM/EU/146664718/photo-2023-08-15-08-21-26-500x500.jpg" alt="Gujrati Dress">
+          <figcaption> Gujrati Dress</figcaption>
+        </figure>
+        <figure class="gallery-item" data-category="nature" data-title="Forest View">
+          <img src="https://img.freepik.com/free-photo/aerial-view-colorful-mixed-forest-shrouded-morning-fog-beautiful-autumn-day_1153-3997.jpg" alt="Forest View">
+          <figcaption>Forest View</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="animals" data-title="Cute Panda">
+          <img src="https://i.pinimg.com/736x/d2/ae/f7/d2aef7899b4bcc753e59af6190de085e.jpg" alt="Cute Panda">
+          <figcaption>Cute Panda</figcaption>
+        </figure>
+         
+        <figure class="gallery-item" data-category="nature" data-title="Cloudy Day">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfTG0m4Gfbm6KNG4g1uflwt_iBmyz1jgGjiQ&s" alt="Cloudy Day">
+          <figcaption>Cloudy Day</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="temple" data-title=" ISKCON Temple">
+          <img src="https://i.pinimg.com/736x/e4/94/e4/e494e43b91ed35700e46aae96c761679.jpg" alt="ISKCON Temple">
+          <figcaption> ISKCON Temple</figcaption>
+          </figure>   
+          
+          <figure class="gallery-item" data-category="food" data-title=" Litti Chokha">
+          <img src="https://recipedabba.com/images/2021/01/Litti-Chokha.jpg" alt=" Litti Chokha">
+          <figcaption> Litti Chokha</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+<section class="section cta-section">
+  <div class="container cta-box glass">
+    <h2>Upload Your Images</h2>
+    <p>Share your creativity with the world and inspire others.</p>
+
+    <!-- ✅ Hidden File Input (NEW) -->
+    <input type="file" id="fileInput" accept="image/*" hidden>
+
+    <!-- ✅ Button (same rahega bas id add karo) -->
+    <button class="btn cta-btn" id="uploadBtn">Upload Now</button>
+  </div>
+</section>
+
+<!-- ✅ Gallery (NEW - image show karne ke liye) -->
+ <div id="gallery"></div>
+
+ 
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container footer-wrap">
+      <p>&copy; 2026 ImageVerse. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="lightboxClose">&times;</span>
+    <img id="lightboxImage" src="" alt="Preview">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
